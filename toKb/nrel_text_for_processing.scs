@@ -1,0 +1,14 @@
+nrel_text_for_processing
+=> nrel_main_idtf:
+	[текст для обработки]
+	(*
+	<- lang_ru;;
+	*);
+	[text for processing] 
+	(*
+	<- lang_en;;
+	*);
+	[тэкст для апрацокi]
+	(*
+	<- lang_by;;
+	*);;

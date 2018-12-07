@@ -1,0 +1,27 @@
+ui_menu_file_for_natural_processing <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_file_for_natural_processing => nrel_main_idtf: 
+	[Обработать текст]
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_natural_processing => nrel_main_idtf: 
+	[Process natural text]
+	(* <- lang_en;; *);;
+
+ui_menu_file_for_natural_processing => ui_nrel_command_template:
+	[*
+		question_of_natural_processing _-> ._question_of_natural_processing_instance
+			(*
+			_-> rrel_1:: ui_arg_1;;
+			*);;
+		._question_of_natural_processing_instance _<- question;;
+	*];;
+
+ui_menu_file_for_natural_processing => ui_nrel_command_lang_template: 
+	[Запрос обработки текста: $ui_arg_1] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_natural_processing => ui_nrel_command_lang_template: 
+	[Request for text processing: $ui_arg_1] 
+	(* <- lang_en;; *);;
+
