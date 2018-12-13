@@ -1,6 +1,6 @@
 natural_language_processing_test_cases
 => nrel_text_for_processing:[Лангбард Иосиф Григорьевич был архитектором здания дома правительства БССР]; 
-=> nrel_text_for_processing:[Лангбард был известным белорусским рахитектором];
+=> nrel_text_for_processing:[Лангбард был известным белорусским архитектором];
 => nrel_text_for_processing:[Лангбард был архитектором здания Академии наук];
 => nrel_text_for_processing:[Лангбард был архитектором архитектурного бюро];
 => nrel_text_for_processing:[Заборский был архитектором здания женского мариавитского монастыря.];;
